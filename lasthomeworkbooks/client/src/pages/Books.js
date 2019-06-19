@@ -17,7 +17,7 @@ class GoogleBooks extends Component {
 
   loadBooks = () => {
     API.RetrieveBooks()
-      .then(res => this.setState({ books: res.data }))
+      .then(res => this.setState({ BookSchema: res.data }))
       .catch(err => console.log(err));
   };
 
