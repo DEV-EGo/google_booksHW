@@ -1,14 +1,11 @@
 import React from "react";
-import "./style.css";
 
 function Nav() {
   return (
 
-    <nav
-      className="navbar navbar-dark bg-dark">
-      <a
-        className="navbar-brand" href="/">
-        Google-Books-Homework
+    <nav className="navbar navbar-dark bg-dark">
+      <a className="navbar-brand" href="/">
+        React-Last-Homework
       </a>
     </nav>
   );
